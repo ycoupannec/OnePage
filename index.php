@@ -22,9 +22,9 @@
 				<div class="container text-center">
 				  	<ul class=" col-md-12 list-inline ">
 					  	<li class="active"><a href="#">Mock Up</a></li>
-					  	<li><a href="#">Produit advantage</a></li>
-					  	<li><a href="#">They loved it</a></li>
-					  	<li><a href="#">Contact-us</a></li>
+					  	<li><a href="#"><i class="glyphicon glyphicon-star"></i> Produit advantage</a></li>
+					  	<li><a href="#"><i class="glyphicon glyphicon-star"></i> They loved it</a></li>
+					  	<li><a href="#"><i class="glyphicon glyphicon-star"></i> Contact-us</a></li>
 				  	</ul>
 				</div>
 			</nav>
@@ -37,13 +37,13 @@
 					<h2 >Still trying to reach ...</h2>
 					<h3>... your full potential ?</h3>
 					<p>
-						<<... so close ...>>
-						<<... and yet so far ...>>
-						<<... looks yummy ...>>
-						<<... goch it's harsh ...>>
-						<<... much difficult ...>>
-						<<... many powerfull ...>>
-						<<... my precious ...>>
+						<<... so close ...>></br>
+						<<... and yet so far ...>></br>
+						<<... looks yummy ...>></br>
+						<<... goch it's harsh ...>></br>
+						<<... much difficult ...>></br>
+						<<... many powerfull ...>></br>
+						<<... my precious ...>></br>
 					</p>
 				</article>
 				<article id="article2" class="row">
@@ -62,16 +62,19 @@
 				<article id="article3" class="row">
 					<figure class="col-md-4">
 						<p>
-							"BEEEUUUUUAAAAAAAAARRRRRRRGGGGGHHHHHHHHHHHHHHHHHH !!!!
+							"BEEEUUUUUAAAAAAAAARRRRRRR</br>
+							GGGGGHHHHHHHHHHHHHHHHHH !!!!</br>
 							GIMME MOCK-UP !!!"
 						</p>
 					</figure>
 					<figure class="col-md-4">
-						<p>"Woof ! woofwowoowooof !
-						wawawoowowoowof woof WOOF !!!"</p>
+						<p>"Woof ! woofwowoowooof !</br>
+						wawawoowowoowof woof</br>
+						WOOF !!!"</p>
 					</figure>
 					<figure class="col-md-4">
-						"Seriously, don't eat that, it smells like shit ... wait ? Oh, alright then Yeah yeah it's great, please eat Mock-up plizz =]"
+						"Seriously, don't eat that, it smells </br>
+						like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]"
 					</figure>
 				</article>
 				<article id="article4" class="row">
@@ -80,7 +83,7 @@
 				</article>
 			</section>
 		</main>
-		<footer class="container">
+		<footer class="container text-center">
 			<h2 class="col-md-12">MockUp</h2>
 			<ul class="col-md-6">
 				<li>Product advantage</li>

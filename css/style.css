@@ -5,3 +5,6 @@ header{
 article{
 	height: 90vh;
 }
+li{
+	list-style: none;
+}
