@@ -3,21 +3,61 @@ header{
 	height: 10vh;
 }
 article{
-	height: 90vh;
+	min-height: 90vh;
 }
 li{
 	list-style: none;
 }
 input{
-	width:45%;
+	width:35%;
+	border:none;
+	border-bottom: 2px solid #6360FD;
+	background-color: #DBDBDB;
+	margin:0.3%;
 }
 button{
-	width:45%;
+	background-color:  #6360FD;
+	width:35%;
+	border:none;
+	border-radius: 3px;
+	padding: 1%;
+	color: white;
 }
 label{
-	width:45%;
+	color: #9E9E9E;
+	width:35%;
+	    margin-top: 0.5%;
+	    margin-bottom: 0;
 	text-align: left;
 }
 input[type="checkbox"]{
 	width: 5%;
+}
+#article4{
+	background-color: #DBDBDB;
+}
+
+.error{
+	border-bottom: 2px solid #B02023;
+	
+}
+#article4 h2{
+	color: #9E9E9E;
+}
+
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
 }

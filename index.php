@@ -32,67 +32,82 @@
 
 
 		<main >
-			<section class="container text-center">
-				<article id="article1" class="row col-md-6">
-					<h2 >Still trying to reach ...</h2>
-					<h3>... your full potential ?</h3>
-					<p>
-						<<... so close ...>></br>
-						<<... and yet so far ...>></br>
-						<<... looks yummy ...>></br>
-						<<... goch it's harsh ...>></br>
-						<<... much difficult ...>></br>
-						<<... many powerfull ...>></br>
-						<<... my precious ...>></br>
-					</p>
-				</article>
-				<article id="article2" class="row">
-					<h2 class="col-md-12"> Try <i>Mock Up</i>, it taste like good ol' socialism and ...</h2>
-					<figure class="col-md-4">
-						<p>It's full of energy !</p>
-					</figure>
-					<figure class="col-md-4">
-						<p>full of vitamins * to *</p>
-					</figure>
-					<figure class="col-md-4">
-						<p>it's gluten free* !</p>
-						<p>*still, you might find some traces of arsenic ... sorry about that.</p>
-					</figure>
-				</article>
-				<article id="article3" class="row">
-					<figure class="col-md-4">
+			<section class="text-center">
+				<div id="article1">
+					<article  class="container col-md-6">
+						<h2 >Still trying to reach ...</h2>
+						<h3>... your full potential ?</h3>
 						<p>
-							"BEEEUUUUUAAAAAAAAARRRRRRR</br>
-							GGGGGHHHHHHHHHHHHHHHHHH !!!!</br>
-							GIMME MOCK-UP !!!"
+							<<... so close ...>></br>
+							<<... and yet so far ...>></br>
+							<<... looks yummy ...>></br>
+							<<... goch it's harsh ...>></br>
+							<<... much difficult ...>></br>
+							<<... many powerfull ...>></br>
+							<<... my precious ...>></br>
 						</p>
-					</figure>
-					<figure class="col-md-4">
-						<p>"Woof ! woofwowoowooof !</br>
-						wawawoowowoowof woof</br>
-						WOOF !!!"</p>
-					</figure>
-					<figure class="col-md-4">
-						"Seriously, don't eat that, it smells </br>
-						like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]"
-					</figure>
-				</article>
-				<article id="article4" class="row">
-					<form>
-						<h2>Contact us ...</h2>
-						<label>имя</label></br>
-						<input type="" name=""></input></br>
-						<label>фамилия</label></br>
-						<input type="" name=""></input></br>
-						<label>тема</label></br>
-						<input type="" name=""></input></br>
-						<label>сообщение</label></br>
-						<input type="" name=""></input></br>
-						<label><input type="checkbox" name="">люблю Россию</input></label></br>
-						<button>послать</button>
-						
-					</form>
-				</article>
+					</article>
+				</div>
+				<div id="article2">
+					<article class="container">
+						<h2 class="col-md-12"> Try <i>Mock Up</i>, it taste like good ol' socialism and ...</h2>
+						<figure class="col-md-4">
+							<p>It's full of energy !</p>
+						</figure>
+						<figure class="col-md-4">
+							<p>full of vitamins * to *</p>
+						</figure>
+						<figure class="col-md-4">
+							<p>it's gluten free* !</p>
+							<p>*still, you might find some traces of arsenic ... sorry about that.</p>
+						</figure>
+					</article>
+				</div>
+				<div id="article3">
+					<article  class="container">
+						<figure class="col-md-4">
+							<p>
+								"BEEEUUUUUAAAAAAAAARRRRRRR</br>
+								GGGGGHHHHHHHHHHHHHHHHHH !!!!</br>
+								GIMME MOCK-UP !!!"
+							</p>
+						</figure>
+						<figure class="col-md-4">
+							<p>"Woof ! woofwowoowooof !</br>
+							wawawoowowoowof woof</br>
+							WOOF !!!"</p>
+						</figure>
+						<figure class="col-md-4">
+							"Seriously, don't eat that, it smells </br>
+							like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]"
+						</figure>
+					</article>
+				</div>
+				<div id="article4">
+					<article class="container">
+						<form>
+							<h2>Contact us ...</h2>
+							<label>имя</label></br>
+							<input type="" name="" placeholder="Иосиф"></input></br>
+							<label>фамилия</label></br>
+							<input type="" name="" placeholder="Сталин"></input></br>
+							<label>тема</label></br>
+							<input type="" name="" placeholder="urssAtmail.ru"></input></br>
+							<label>сообщение</label></br>
+							<input type="" name=""></input></br>
+							<div class="onoffswitch">
+							    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+							    <label class="onoffswitch-label" for="myonoffswitch">
+							        <span class="onoffswitch-inner"></span>люблю Россию
+							        <span class="onoffswitch-switch"></span>
+							    </label>
+							</div>
+							</br>
+							<button>послать</button>
+							
+						</form>
+					</article>
+				</div>
 			</section>
 		</main>
 		<footer class="container text-center">
