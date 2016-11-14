@@ -79,7 +79,16 @@
 				</article>
 				<article id="article4" class="row">
 					<h2>Contact us ...</h2>
-					<p>Materialise pour le formulaire.</p>
+					<p>имя</p>
+					<input type="" name=""></input>
+					<p>фамилия</p>
+					<input type="" name=""></input>
+					<p>тема</p>
+					<input type="" name=""></input>
+					<p>сообщение</p>
+					<input type="" name=""></input>
+					<input type="checkbox" name=""><p>люблю Россию</p></input>
+					<button>послать</button>
 				</article>
 			</section>
 		</main>
