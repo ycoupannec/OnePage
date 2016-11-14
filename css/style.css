@@ -8,3 +8,16 @@ article{
 li{
 	list-style: none;
 }
+input{
+	width:45%;
+}
+button{
+	width:45%;
+}
+label{
+	width:45%;
+	text-align: left;
+}
+input[type="checkbox"]{
+	width: 5%;
+}

@@ -78,17 +78,20 @@
 					</figure>
 				</article>
 				<article id="article4" class="row">
-					<h2>Contact us ...</h2>
-					<p>имя</p>
-					<input type="" name=""></input>
-					<p>фамилия</p>
-					<input type="" name=""></input>
-					<p>тема</p>
-					<input type="" name=""></input>
-					<p>сообщение</p>
-					<input type="" name=""></input>
-					<input type="checkbox" name=""><p>люблю Россию</p></input>
-					<button>послать</button>
+					<form>
+						<h2>Contact us ...</h2>
+						<label>имя</label></br>
+						<input type="" name=""></input></br>
+						<label>фамилия</label></br>
+						<input type="" name=""></input></br>
+						<label>тема</label></br>
+						<input type="" name=""></input></br>
+						<label>сообщение</label></br>
+						<input type="" name=""></input></br>
+						<label><input type="checkbox" name="">люблю Россию</input></label></br>
+						<button>послать</button>
+						
+					</form>
 				</article>
 			</section>
 		</main>
