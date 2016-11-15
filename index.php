@@ -91,18 +91,30 @@
 							<input type="" name="" placeholder="Иосиф"></input></br>
 							<label>фамилия</label></br>
 							<input type="" name="" placeholder="Сталин"></input></br>
+							<label>е-мейл</label></br>
+							<input type="email" name="" placeholder="urssAtmail.ru"></input></br>
 							<label>тема</label></br>
-							<input type="" name="" placeholder="urssAtmail.ru"></input></br>
-							<label>сообщение</label></br>
 							<input type="" name=""></input></br>
-							<div class="onoffswitch">
-							    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-							    <label class="onoffswitch-label" for="myonoffswitch">
-							        <span class="onoffswitch-inner"></span>
-							        <span class="onoffswitch-switch"></span>
-							    </label>
+							<label>сообщение</label></br>
+							<textarea></textarea></br>
+							<label id="nbCar">
+								0/150
+							</label>
+							<div class="checkboxOnOff">
+								<div class="onoffswitch">
+								    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+								    <label class="onoffswitch-label" for="myonoffswitch">
+								        <span class="onoffswitch-inner"></span>
+								        <span class="onoffswitch-switch"></span>
+								    </label>
+
+								</div>
+								<label>
+									люблю Россию
+								</label>
 							</div>
-							люблю Россию
+							
+							
 							</br>
 							<button>послать</button>
 							

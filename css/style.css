@@ -15,6 +15,12 @@ input{
 	background-color: #DBDBDB;
 	margin:0.3%;
 }
+textarea{
+	width:35%;
+	height: 60px;
+	border:none;
+	background-color: #DBDBDB;
+}
 button{
 	background-color:  #6360FD;
 	width:35%;
@@ -22,12 +28,13 @@ button{
 	border-radius: 3px;
 	padding: 1%;
 	color: white;
+	margin-bottom: 5%;
 }
 label{
 	color: #9E9E9E;
 	width:35%;
-	    margin-top: 0.5%;
-	    margin-bottom: 0;
+    margin-top: 2%;
+    margin-bottom: 0;
 	text-align: left;
 }
 input[type="checkbox"]{
@@ -65,6 +72,8 @@ input[type="checkbox"]{
 /*-------------------------------------------------------------------------------------------------------*/
 
 .onoffswitch {
+	
+	margin-left: 32.5%;
     position: relative; width: 61px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
 }
@@ -74,14 +83,14 @@ input[type="checkbox"]{
 .onoffswitch-label {
 	width: 100%;
     display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #EEEEEE; border-radius: 25px;
+    border: 2px solid #9E9E9E; border-radius: 25px;
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
     transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
-    display: block; float: left; width: 50%; height: 21px; padding: 0; line-height: 21px;
+    display: block; float: left; width: 50%; height: 15px; padding: 0; line-height: 21px;
     font-size: 0px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     box-sizing: border-box;
 }
@@ -93,16 +102,18 @@ input[type="checkbox"]{
 .onoffswitch-inner:after {
     content: "OFF";
     padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
+    background-color: #9E9E9E; color: #999999;
     text-align: right;
 }
 .onoffswitch-switch {
-    display: block; width: 33px; margin: -6px;
+    display: block; width: 31px; margin: -6px;
     background: #FFFFFF;
     position: absolute; top: 0; bottom: 0;
     right: 36px;
-    border: 2px solid #EEEEEE; border-radius: 25px;
+    /*border: 2px solid #9E9E9E; */
+    border-radius: 25px;
     transition: all 0.3s ease-in 0s; 
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2); 
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
     margin-left: 0;
@@ -111,3 +122,8 @@ input[type="checkbox"]{
     right: 0px; 
 }
 /*-------------------------------------------------------------------------------------------------------*/
+
+#nbCar{
+	
+	text-align: right;
+}
