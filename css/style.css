@@ -1,12 +1,46 @@
+@font-face{
+
+	font-family: "futuraM";
+	src: url(../fonts/futura-medium.ttf);
+}
+
+@font-face{
+
+	font-family: "futuraMI";
+	src: url(../fonts/futura-mediumitalic.ttf);
+}
+
+@font-face{
+
+	font-family: "futuraCEB";
+	src: url(../fonts/futura-condensedextrabold.ttf);
+}
+
+@font-face{
+
+	font-family: "futuraCM";
+	src: url(../fonts/futura-condensedmedium.ttf);
+}
+body{
+	font-family: futuraM;
+	color: #fff;
+}
+
 header{
 	background-color: green;
-	height: 10vh;
+/*	height: 10vh;*/
 }
 article{
 	min-height: 90vh;
 }
 li{
 	list-style: none;
+}
+a{
+	color: #fff;
+}
+ a:link, a:hover, a:active{
+	color: #9e9e9e;
 }
 input{
 	width:35%;
@@ -182,15 +216,15 @@ footer i{
 
 #article3{
 	background-image: url("../img/bgd-section-03.jpg");
-	height: 48.87vw;
+	/*height: 48.87vw;*/
 	background-size: cover;
 }
 
 #article3 div{
 	border:0.8em solid white;
 	margin: 5%;
-	height: 50vh;
-	width: 50vh;
+	   height: 20em;
+    width: 20em;
 	overflow: hidden;
 	border-radius: 50%;
 }
@@ -198,8 +232,88 @@ footer i{
 	padding-top: 10%;
 }
 
-#article3 img{
+#article3 img[src="img/avis-01.jpg"]{
 	margin-top: 0%;
-    margin-left: -80%;
-    height: 90vh;
+    margin-left: -90%;
+    height: 210%;
+}
+#article3 img[src="img/avis-02.jpg"]{
+	margin-top: -15%;
+    margin-left: -100%;
+    height: 200%;
+}
+#article3 img[src="img/avis-03.jpg"]{
+	margin-top: -30%;
+    margin-left: -50%;
+    height: 150%;
+}
+
+
+/*==========================================================================================================*/
+										/*Lea*/
+/*==========================================================================================================*/
+
+#entete{
+	background-image: url(../img/bgd-header.jpg);
+	background-size: cover;
+	height: 7.31vw;
+}
+
+#article1{
+	background-image: url(../img/bgd-section-01.jpg);
+	background-size: cover;
+	height: 67.53vw;
+	overflow: hidden;
+	
+}
+#article2{
+	background-image: url(../img/bgd-section-02.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+/*	height: 40.06vw;*/
+	font-size:2em;
+	padding: 1em;
+	
+}
+
+/*#article3{
+	background-image: url(../img/bgd-section-03.jpg);
+	background-size: cover;
+	height: 48.875vw;
+}*/
+
+#article1 h2 {
+	font-family: 'futuraCEB';
+	font-size: 3.5em;
+	text-shadow: 0px 0px 15px  #000;
+	
+}
+#article1 h3 {
+	font-size: 2.5em;
+	text-shadow: 0px 0px 15px  #000;
+
+}
+#closer{
+	font-family: 'futuraCM';
+	font-size: 2em;
+	text-shadow: 0px 0px 15px  #000;
+
+
+}
+#produit{	
+	margin-top: -17em;
+	margin-left: 2em;
+	width:51vw;
+}
+#article2 h2 {
+	font-size: 1.5em;
+
+}
+#article2 img{
+	width: 60%;
+	margin-top: 3em;
+}
+
+#asterix{
+	font-size:0.5em;
 }

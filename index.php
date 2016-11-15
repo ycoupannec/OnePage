@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -9,14 +8,14 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<!-- <script type="text/javascript" src="js/javas.js"></script> -->
+<!-- 		<script type="text/javascript" src="js/javas.js"></script> -->
 
 	  <title>Mock up</title>
 	</head>
 	<body id="top">
 
 
-		<header class="container-fluid">
+		<header class="container-fluid" id="entete">
 
 			<nav class="navbar">
 				<div class="container text-center">
@@ -34,35 +33,46 @@
 		<main >
 			<section class="text-center">
 				<div id="article1">
-					<article  class="container col-md-6">
+					<article  class="container col-md-9">
+						
 						<h2 >Still trying to reach ...</h2>
 						<h3>... your full potential ?</h3>
-						<p>
-							<<... so close ...>></br>
-							<<... and yet so far ...>></br>
-							<<... looks yummy ...>></br>
-							<<... goch it's harsh ...>></br>
-							<<... much difficult ...>></br>
-							<<... many powerfull ...>></br>
-							<<... my precious ...>></br>
+						<p id="closer">
+							"... so close ..."<br />
+							"... and yet so far ..."<br />
+							"... looks yummy ..."<br />
+							"... goch it's harsh ..."<br />
+							"... much difficult ..."<br />
+							"... many powerfull ..."<br />
+							"... my precious ..."<br />
 						</p>
+					
 					</article>
+					<div class="col-xs-8 text-left">
+					<img src="img/produit.svg" id="produit"></div>
+
 				</div>
+
+
 				<div id="article2">
 					<article class="container">
 						<h2 class="col-md-12"> Try <i>Mock Up</i>, it taste like good ol' socialism and ...</h2>
 						<figure class="col-md-4">
+							<img src="img/energy.svg">
 							<p>It's full of energy !</p>
 						</figure>
 						<figure class="col-md-4">
+							<img src="img/vitamin.svg">
 							<p>full of vitamins * to *</p>
 						</figure>
 						<figure class="col-md-4">
+							<img src="img/glutenFree.svg">
 							<p>it's gluten free* !</p>
-							<p>*still, you might find some traces of arsenic ... sorry about that.</p>
+							<p id="asterix">*still, you might find some traces of arsenic ... sorry about that.</p>
 						</figure>
 					</article>
 				</div>
+
 				<div id="article3">
 					<article  class="container">
 						<figure class="col-md-4">
