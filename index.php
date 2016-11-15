@@ -64,7 +64,7 @@
 						</figure>
 						<figure class="col-md-4">
 							<img src="img/vitamin.svg">
-							<p>full of vitamins * to *</p>
+							<p>full of vitamins л to 特</p>
 						</figure>
 						<figure class="col-md-4">
 							<img src="img/glutenFree.svg">
