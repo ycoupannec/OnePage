@@ -127,3 +127,79 @@ input[type="checkbox"]{
 	
 	text-align: right;
 }
+
+/*==========================================================================================================*/
+										/*FOOTER*/
+/*==========================================================================================================*/
+
+
+#footerBG{
+	background-image: url("../img/bgd-footer.jpg");
+	background-size: cover;
+	height:21.93vw;
+}
+
+#col2Footer, #col1Footer {
+	text-align: left;
+	padding-left: 10%;
+
+}
+
+
+#col1Footer{
+	border-right: 1px solid white;
+}
+footer{
+	color:white;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	
+
+}
+
+#footerImg{
+	height:7em;	
+}
+footer li{
+	margin-top: 5%;
+	margin-bottom: 7%;
+	font-size: 1.5em;
+}
+footer div{
+	margin-top: 1%;
+}
+footer i{
+	font-size: 0.8em;
+}
+
+/*==========================================================================================================*/
+										/*FIN FOOTER*/
+/*==========================================================================================================*/
+
+/*==========================================================================================================*/
+										/*article3*/
+/*==========================================================================================================*/
+
+#article3{
+	background-image: url("../img/bgd-section-03.jpg");
+	height: 48.87vw;
+	background-size: cover;
+}
+
+#article3 div{
+	border:0.8em solid white;
+	margin: 5%;
+	height: 50vh;
+	width: 50vh;
+	overflow: hidden;
+	border-radius: 50%;
+}
+#article3 .container{
+	padding-top: 10%;
+}
+
+#article3 img{
+	margin-top: 0%;
+    margin-left: -80%;
+    height: 90vh;
+}

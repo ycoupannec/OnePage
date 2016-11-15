@@ -9,7 +9,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/javas.js"></script>
+		<!-- <script type="text/javascript" src="js/javas.js"></script> -->
 
 	  <title>Mock up</title>
 	</head>
@@ -66,6 +66,7 @@
 				<div id="article3">
 					<article  class="container">
 						<figure class="col-md-4">
+							<div class="cercleOver"><img src="img/avis-01.jpg"></div>
 							<p>
 								"BEEEUUUUUAAAAAAAAARRRRRRR</br>
 								GGGGGHHHHHHHHHHHHHHHHHH !!!!</br>
@@ -73,11 +74,13 @@
 							</p>
 						</figure>
 						<figure class="col-md-4">
+							<div class="cercleOver"><img src="img/avis-02.jpg"></div>
 							<p>"Woof ! woofwowoowooof !</br>
 							wawawoowowoowof woof</br>
 							WOOF !!!"</p>
 						</figure>
 						<figure class="col-md-4">
+						<div class="cercleOver"><img src="img/avis-03.jpg"></div>
 							"Seriously, don't eat that, it smells </br>
 							like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]"
 						</figure>
@@ -123,18 +126,25 @@
 				</div>
 			</section>
 		</main>
-		<footer class="container text-center">
-			<h2 class="col-md-12">MockUp</h2>
-			<ul class="col-md-6">
-				<li>Product advantage</li>
-				<li>They loved it</li>
-				<li>Contact-us</li>
-			</ul>
-			<ul class="col-md-6">
-				<li><a href="">Rutube</a></li>
-				<li><a href="">facebook</a></li>
-				<li><a href="">Pinterest</a></li>
-			</ul>
-		</footer>
+		<div id="footerBG">
+			<footer class="container text-center">
+				<!-- <h2 class="col-md-12">MockUp</h2> -->
+				<img id="footerImg" class="col-md-12" src="img/brandMockUp.svg">
+				<div id="col1Footer" class="col-md-6">
+					<ul>
+						<li><i class="glyphicon glyphicon-star"></i>  Product advantage</li>
+						<li><i class="glyphicon glyphicon-star"></i>  They loved it</li>
+						<li><i class="glyphicon glyphicon-star"></i>  Contact-us</li>
+					</ul>
+				</div>
+				<div id ="col2Footer" class="col-md-6">
+					<ul>
+						<li><a href="">Rutube</a></li>
+						<li><a href="">facebook</a></li>
+						<li><a href="">Pinterest</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
