@@ -165,7 +165,7 @@ input[type="checkbox"]{
 #footerBG{
 	background-image: url("../img/bgd-footer.jpg");
 	background-size: cover;
-	height:21.93vw;
+	/*height:21.93vw;*/
 }
 
 #col2Footer, #col1Footer {
@@ -331,7 +331,8 @@ a{
 	color: #fff;
 }
 a:hover, a:active{
-	color: #9e9e9e;
+	color: #fff;
+	text-decoration: none;
 }
 
 
@@ -340,5 +341,23 @@ header li{
 	margin-left:5%;
 	margin-right:5%;
 	font-size: 1.3em;
+	padding: 0.5%;
 
+}
+
+header li:hover{
+	background-color: #791B1B;
+}
+
+@media screen and (max-width: 992px){
+	#col1Footer{
+		border-right: none;
+	}
+	#col1Footer, #col2Footer{
+		text-align: center;
+		padding:0;
+	}
+	.retourne360{
+		margin:0;
+	}
 }

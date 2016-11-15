@@ -163,9 +163,9 @@
 				</div>
 				<div id ="col2Footer" class="col-md-6">
 					<ul>
-						<li><a href="">Rutube</a></li>
-						<li><a href="">facebook</a></li>
-						<li><a href="">Pinterest</a></li>
+						<li><a href=""><img src="img/rutube.svg"></a></li>
+						<li><a href=""><img src="img/facebook.svg"></a></li>
+						<li><a href=""><img src="img/pinterest.svg"></a></li>
 					</ul>
 				</div>
 			</footer>
