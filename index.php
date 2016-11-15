@@ -77,23 +77,36 @@
 				<div id="article3">
 					<article  class="container">
 						<figure class="col-md-4">
-							<div class="cercleOver"><img src="img/avis-01.jpg"></div>
-							<p><img src="img/guillemet.svg">
+							<div class="cercleOver ">
+								<img src="img/avis-01.jpg"></div>
+							<div class="row">
+								<img class="col-md-2" src="img/guillemet.svg">
+								<p class="col-md-8">
 								BEEEUUUUUAAAAAAAAARRRRRRR</br>
 								GGGGGHHHHHHHHHHHHHHHHHH !!!!</br></br>
-								GIMME MOCK-UP !!!
-							<img class="retourne360" src="img/guillemet.svg"><p>
+								GIMME MOCK-UP !!!<p>
+								<img class="retourne360 col-md-2" src="img/guillemet.svg">
+							</div>
 						</figure>
 						<figure class="col-md-4">
 							<div class="cercleOver"><img src="img/avis-02.jpg"></div>
-							<p><img src="img/guillemet.svg">Woof ! woofwowoowooof !</br>
-							wawawoowowoowof woof</br>
-							WOOF !!!<img class="retourne360" src="img/guillemet.svg"></p>
+							<div class="row">
+								<img class="col-md-2" src="img/guillemet.svg">
+								<p class="col-md-8">Woof ! woofwowoowooof !</br>
+								wawawoowowoowof woof</br>
+								WOOF !!!</p>
+								<img class="retourne360 col-md-2" src="img/guillemet.svg">
+							</div>
 						</figure>
 						<figure class="col-md-4">
-						<div class="cercleOver"><img src="img/avis-03.jpg"></div>
-							<p><img src="img/guillemet.svg">Seriously, don't eat that, it smells </br>
-							like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]<img class="retourne360" src="img/guillemet.svg"></p>
+						<div class="cercleOver row">
+						<img src="img/avis-03.jpg"></div>
+							<div class="row">
+								<img class="col-md-2" src="img/guillemet.svg">
+								<p class="col-md-8">Seriously, don't eat that, it smells </br>
+								like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]</p>
+								<img class="retourne360 col-md-2" src="img/guillemet.svg">
+							</div>
 						</figure>
 					</article>
 				</div>

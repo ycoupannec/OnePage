@@ -220,37 +220,47 @@ footer i{
 	background-size: cover;
 }
 
-#article3 div{
+#article3 .cercleOver{
 	border:0.8em solid white;
-	margin: 5%;
+	margin: auto;
 	   height: 20em;
     width: 20em;
 	overflow: hidden;
 	border-radius: 50%;
+
 }
 #article3 .container{
 	padding-top: 10%;
 }
 
 #article3 img[src="img/avis-01.jpg"]{
-	margin-top: 0%;
-    margin-left: -90%;
-    height: 210%;
+	width: 100%;
+    height: 100%;
 }
 #article3 img[src="img/avis-02.jpg"]{
-	margin-top: -15%;
-    margin-left: -100%;
-    height: 200%;
+	width: 100%;
+    height: 100%;
 }
 #article3 img[src="img/avis-03.jpg"]{
-	margin-top: -30%;
-    margin-left: -50%;
-    height: 150%;
+	width: 100%;
+    height: 100%;
 }
-
 #article3 .retourne360{
 	transform: rotate(180deg);
+	margin-top: 20%;
 }
+#article3 img[src="img/guillemet.svg"]{
+	/*width: 1.4em;
+    margin: 3%;*/
+/*    width: 3.5em;*/
+
+}
+#article3 p{
+	/*width:90%;*/
+	font-family: 'futuraMI';
+}
+
+
 
 
 /*==========================================================================================================*/
