@@ -21,7 +21,7 @@
 			<nav class="navbar">
 				<div class="container text-center">
 				  	<ul class=" col-md-12 list-inline ">
-					  	<li class="active"><a href="#">Mock Up</a></li>
+					  	<li class="active"><a href="#"><img src="img/brandMockUp.svg"></a></li>
 					  	<li><a href="#"><i class="glyphicon glyphicon-star"></i> Produit advantage</a></li>
 					  	<li><a href="#"><i class="glyphicon glyphicon-star"></i> They loved it</a></li>
 					  	<li><a href="#"><i class="glyphicon glyphicon-star"></i> Contact-us</a></li>

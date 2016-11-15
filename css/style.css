@@ -36,12 +36,7 @@ article{
 li{
 	list-style: none;
 }
-a{
-	color: #fff;
-}
- a:link, a:hover, a:active{
-	color: #9e9e9e;
-}
+
 input{
 	width:35%;
 	border:none;
@@ -270,7 +265,7 @@ footer i{
 #entete{
 	background-image: url(../img/bgd-header.jpg);
 	background-size: cover;
-	height: 7.31vw;
+	/*height: 7.31vw;*/
 }
 
 #article1{
@@ -330,4 +325,20 @@ footer i{
 
 #asterix{
 	font-size:0.5em;
+}
+
+a{
+	color: #fff;
+}
+a:hover, a:active{
+	color: #9e9e9e;
+}
+
+
+header li{
+	margin-top: 2%;
+	margin-left:5%;
+	margin-right:5%;
+	font-size: 1.3em;
+
 }
