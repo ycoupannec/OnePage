@@ -78,22 +78,22 @@
 					<article  class="container">
 						<figure class="col-md-4">
 							<div class="cercleOver"><img src="img/avis-01.jpg"></div>
-							<img src="img/guillemet.svg"><p>
+							<p><img src="img/guillemet.svg">
 								BEEEUUUUUAAAAAAAAARRRRRRR</br>
-								GGGGGHHHHHHHHHHHHHHHHHH !!!!</br>
+								GGGGGHHHHHHHHHHHHHHHHHH !!!!</br></br>
 								GIMME MOCK-UP !!!
-							</p><img class="retourne360" src="img/guillemet.svg"><p>
+							<img class="retourne360" src="img/guillemet.svg"><p>
 						</figure>
 						<figure class="col-md-4">
 							<div class="cercleOver"><img src="img/avis-02.jpg"></div>
-							<img src="img/guillemet.svg"><p><p>Woof ! woofwowoowooof !</br>
+							<p><img src="img/guillemet.svg">Woof ! woofwowoowooof !</br>
 							wawawoowowoowof woof</br>
-							WOOF !!!</p><img class="retourne360" src="img/guillemet.svg">
+							WOOF !!!<img class="retourne360" src="img/guillemet.svg"></p>
 						</figure>
 						<figure class="col-md-4">
 						<div class="cercleOver"><img src="img/avis-03.jpg"></div>
-							<img src="img/guillemet.svg"><p>Seriously, don't eat that, it smells </br>
-							like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]</p><img class="retourne360" src="img/guillemet.svg">
+							<p><img src="img/guillemet.svg">Seriously, don't eat that, it smells </br>
+							like shit ... wait ? How much</br> money, again ? Oh, alright then</br> ... </br> Yeah yeah it's great, please eat</br> Mock-up plizz =]<img class="retourne360" src="img/guillemet.svg"></p>
 						</figure>
 					</article>
 				</div>
